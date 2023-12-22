@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxes {
+    /* outline: 1px solid black; */
+    width: 450px;
+    /* aspect-ratio: 1; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.smallBox {
+    aspect-ratio: 1;
+    outline: 1px solid black;
+}
